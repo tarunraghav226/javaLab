@@ -1,0 +1,15 @@
+import  java.util.Scanner;
+
+public class Question1{
+    int n;
+    double sum;
+    Question1 (int n){
+        this.n=n;
+        this.sum=0.0;
+    }
+    double calculateSum(){
+        for(int i=1;i<=n;i++)
+                sum+=1/i;
+        return sum;
+    }
+}
