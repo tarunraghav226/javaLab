@@ -8,13 +8,16 @@ public class Question1{
         this.sum=0.0;
     }
     double calculateSum(){
-        for(int i=1;i<=n;i++)
-                sum+=1/i;
+        for(int i=1;i<=n;i++){
+                sum+=(double)1/i;
+            }
         return sum;
     }
     public static void main(String []args){
-        Scanner scan=new Scanner()System.in;
+        Scanner scan=new Scanner(System.in);
         Question1 obj=new Question1(scan.nextInt());
         System.out.println(obj.calculateSum());
+        scan.close();
     }
+
 }
