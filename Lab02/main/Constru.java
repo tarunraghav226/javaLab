@@ -1,9 +1,9 @@
-public class Constructor{
+public class Constru{
     private int number;
     private String name;
-    Constructor(int number,String name){
-        this.number=number;
-        this.name=name;
+    public Constru(){
+        this.number=0;
+        this.name="/u0000";
     }
 
     public String getName() {
