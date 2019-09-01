@@ -12,4 +12,9 @@ public class Question1{
                 sum+=1/i;
         return sum;
     }
+    public static void main(String []args){
+        Scanner scan=new Scanner()System.in;
+        Question1 obj=new Question1(scan.nextInt());
+        System.out.println(obj.calculateSum());
+    }
 }
