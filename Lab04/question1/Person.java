@@ -37,4 +37,14 @@ public class Person{
         this.age=age;
         this.gender=gender;
     }
+    @Override
+    public String toString(){
+        StringBuilder str = new StringBuilder(); 
+        str.append("Myself "+getName()+". I am "+getAge()+" years old . I am a");
+        if (gender=='m')
+            str.append(" Male");
+        else 
+            str.append(" Female");
+        return str.toString();
+    }
 }
