@@ -5,13 +5,17 @@ public class Main{
         String name;
         char gender;
         int age;
+        long rollno;
+        String course;
 
         Scanner scan = new Scanner(System.in);
         name=scan.nextLine();
         age=scan.nextInt();
         gender=scan.next().charAt(0);
-        
-        Person obj =new Person(name,age,gender);
+        rollno=scan.nextLong();
+        course=scan.next();
+
+        Student obj =new Student(name,age,gender,rollno,course);
         System.out.print(obj.toString());
         scan.close();
     }
