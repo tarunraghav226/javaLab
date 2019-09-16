@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "Lab05.bottleNeckQuestion.Main",
+            "projectName": "javaLab_34eaebb0"
+        }
+    ]
+}
