@@ -5,7 +5,7 @@ class Main{
         int n = Integer.parseInt(scan.nextLine());
         for(int i=0;i<n;i++){   
             Mail obj =new Mail(scan.next(),scan.next(),scan.next());
-            System.out.println(obj.toString());
+            System.out.println(obj.getEmailAndPass());
             }
         scan.close();
     }
