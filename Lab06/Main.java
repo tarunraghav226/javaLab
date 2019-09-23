@@ -2,8 +2,11 @@ import java.util.Scanner;
 class Main{
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
-        Mail obj =new Mail(scan.next(),scan.next(),scan.next());
-        System.out.println(obj.toString());
+        int n = Integer.parseInt(scan.nextLine());
+        for(int i=0;i<n;i++){   
+            Mail obj =new Mail(scan.next(),scan.next(),scan.next());
+            System.out.println(obj.toString());
+            }
         scan.close();
     }
 }

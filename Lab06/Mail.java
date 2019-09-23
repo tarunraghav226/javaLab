@@ -11,6 +11,6 @@ public class Mail{
     }
 
     public String toString(){
-        return name.toLowerCase()+"_"+age+"@"+company+".com";
+        return String.format("%10s_%2s@%s.com",name.toLowerCase(),age,company);
     }
 }
