@@ -12,5 +12,9 @@ public class Main{
             System.out.println("Strip is Defective");
         else    
             System.out.println("Strip is Not Defective");
+        System.out.println("Red--"+obj.getRed());
+        System.out.println("Green--"+obj.getGreen());
+        System.out.println("White--"+obj.getWhite());
+        System.out.println("Blue--"+obj.getBlue());
     }
 }
